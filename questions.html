@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chicago Bears Quiz">
+    <title>Chicago Bears Quiz</title>
+</head>
+<body>
+    <header role='banner' class='header'>
+        <div>
+            <div class=''>
+                <h1>Chicago Bears Quiz</h1>
+                <span class='questionCount'>Question: 1/10 </span>
+                <span class='scoreCount'> Score: 0</span>
+            </div>
+        </div>  
+    </header>
+
+    <main role='main' class='container'> 
+        <fieldset>
+            <div class=''>
+                <div class=''>
+                    <legend>Question # 1</legend>
+                    <ul class='options'> 
+                        <li><input type="radio" id="answer1" name="gender" value="answer1">
+                            <label for="answer1">answer 1</label><br></li>
+                        <li><input type="radio" id="answer2" name="gender" value="answer2">
+                            <label for="answer2">answer 2</label><br></li>
+                        <li><input type="radio" id="answer3" name="gender" value="answer3">
+                            <label for="answer3">answer 3</label><br></li>
+                        <li><input type="radio" id="answer4" name="gender" value="answer4">
+                            <label for="answer4">answer 4</label><br></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class=''>
+                <div class=''>
+                    <button type='button' id='submit'> Submit</button>
+                </div>
+            </div>
+        </fieldset> 
+
+
+
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<style>
+    * {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+fieldset {
+    width: 70%;
+    border: 1px solid;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+legend{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+ul {
+    list-style-type: none;
+}
+</style>
+    
+</body>
+</html>
